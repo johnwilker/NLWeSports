@@ -6,6 +6,11 @@
     box-sizing: border-box;    
 }
 
+body * {
+    font-family: 'Inter', sans-serif ;
+    line-height: 160%;
+}
+
 ul {
     list-style: none;
 }
@@ -16,11 +21,6 @@ body {
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-color: #121214;
-}
-
-body * {
-    font-family: 'Inter', sans-serif ;
-    line-height: 160%;
 }
 
 header {
@@ -39,14 +39,14 @@ header div {
     transition: transform .3s;
 }
 
-header div:hover {
-    transform: scale(1.1);
-}
-
 header img {
     /* height: 120px; */
     width: 100%;
     border-radius: 50%;
+}
+
+header div:hover {
+    transform: scale(1.1);
 }
 
 main {
